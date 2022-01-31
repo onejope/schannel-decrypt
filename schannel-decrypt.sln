@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "schannel-decrypt", "schannel-decrypt\schannel-decrypt.vcxproj", "{80419368-2F9F-4B52-9D87-D62753FDD233}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinsockSampleServer", "sample-server-client\WinsockSampleServer\WinsockSampleServer.vcxproj", "{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinsockSampleClient", "sample-server-client\WinsockSampleClient\WinsockSampleClient.vcxproj", "{03D628E6-944C-40FA-81D9-E48C6B32E514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Debug|x64.ActiveCfg = Debug|x64
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Debug|x64.Build.0 = Debug|x64
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Debug|x86.ActiveCfg = Debug|Win32
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Debug|x86.Build.0 = Debug|Win32
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Release|x64.ActiveCfg = Release|x64
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Release|x64.Build.0 = Release|x64
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Release|x86.ActiveCfg = Release|Win32
+		{80419368-2F9F-4B52-9D87-D62753FDD233}.Release|x86.Build.0 = Release|Win32
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Debug|x64.ActiveCfg = Debug|x64
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Debug|x64.Build.0 = Debug|x64
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Debug|x86.Build.0 = Debug|Win32
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Release|x64.ActiveCfg = Release|x64
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Release|x64.Build.0 = Release|x64
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Release|x86.ActiveCfg = Release|Win32
+		{FA3BEE17-3C1F-4B93-9F9B-F575B714ED7D}.Release|x86.Build.0 = Release|Win32
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Debug|x64.ActiveCfg = Debug|x64
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Debug|x64.Build.0 = Debug|x64
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Debug|x86.ActiveCfg = Debug|Win32
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Debug|x86.Build.0 = Debug|Win32
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Release|x64.ActiveCfg = Release|x64
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Release|x64.Build.0 = Release|x64
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Release|x86.ActiveCfg = Release|Win32
+		{03D628E6-944C-40FA-81D9-E48C6B32E514}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60AA8010-3C22-4A4E-BC3B-D99773DAA0EB}
+	EndGlobalSection
+EndGlobal
